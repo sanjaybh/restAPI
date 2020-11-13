@@ -1,0 +1,24 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "Creating Rest API",
+  "main": "index.js",
+  "scripts": {
+    "startdb": "C:\\Users\\sanjay\\mongodb\bin\\mongod.exe --dbpath=C:\\Users\\sanjay\\mongodb-data",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Sanjay Bhan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
